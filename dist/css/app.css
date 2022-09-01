@@ -233,14 +233,13 @@ nav.navbar .container .nav-link::before {
     z-index: 1010;
     gap: 0;
   }
-  nav.navbar .container .nav-menu .nav-link.active {
-    /* background-color: rgba(255, 255, 255, 0.05); */
+  nav.navbar .container .nav-menu .nav-link:focus {
     padding: 0.5rem 1rem;
-    /* border-radius: 6px; */
-    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), inset 2px 2px 5px rgb(88, 88, 88); */
     border-radius: 6px;
+    color: #fb7031;
     background: linear-gradient(145deg, #33383d, #3d4249);
     box-shadow: 4px 4px 7px #30353a, -4px -4px 7px #42474e;
+  }
   }
 
   /* /////////////////////////////////////////////////// */
